@@ -2,6 +2,7 @@
 
 const inquirer = require('inquirer');
 const fs = require('fs');
+const generateMarkdown = require('./utils/generateMarkdown');
 
 // TODO: Create an array of questions for user input
 const questions = [
@@ -11,46 +12,15 @@ const questions = [
     'How can a user use your project?',
     'How can someone contribute to this project?',
     'How can the user test your project?',
+    'What license do you want to use?',
     'What is your GitHub username?',
     'What is yout email address?',
 ];
-// const questionTypes = [
-//     'title',
-//     'description',
-//     'installation',
-//     'usage',
-//     'contribute',
-//     'test',
-//     'github',
-//     'email',
-// ];
-
 
 // TODO: Create a function to write README file
 function writeToFile(data) {
-    const fileData = // remember to finish this part!
-    `# ${data.title}
-    ## Description
-    
-    ${data.description}
-    
-    ## Installation
 
-    ${data.installation}
-
-    ## Usage
-    
-    ${data.usage}
-
-    ## Contributing
-
-    ${data.constribute}
-
-    ## Tests
-
-    ${data.test}
-    `;
-    fs.writeFile('README.md', fileData, (err) => {
+    fs.writeFile('README.md', generateMarkdown(data), (err) => {
         if (err) {
             console.log(err);
         } else {
@@ -97,7 +67,7 @@ function init() {
                     if (input) {
                         return true;
                     } else {
-                        console.log("Please enter a description of your project.");
+                        console.log("Please enter a how to install your project.");
                         return false;
                     }
                 },
@@ -110,7 +80,7 @@ function init() {
                     if (input) {
                         return true;
                     } else {
-                        console.log("Please enter a description of your project.");
+                        console.log("Please enter how to use your project.");
                         return false;
                     }
                 },
@@ -123,7 +93,7 @@ function init() {
                     if (input) {
                         return true;
                     } else {
-                        console.log("Please enter a description of your project.");
+                        console.log("Please enter how to contribute to your project.");
                         return false;
                     }
                 },
@@ -136,20 +106,26 @@ function init() {
                     if (input) {
                         return true;
                     } else {
-                        console.log("Please enter a description of your project.");
+                        console.log("Please enter how to test your project.");
                         return false;
                     }
                 },
             },
             {
+                type: 'list',
+                message: questions[6],
+                name: 'license',
+                choices: ['MIT License', 'Apache License 2.0', 'ISC License', 'No License'],
+            },
+            {
                 type: 'input',
                 name: 'github',
-                message: questions[6],
+                message: questions[7],
                 validate: (input) => {
                     if (input) {
                         return true;
                     } else {
-                        console.log("Please enter a description of your project.");
+                        console.log("Please enter your GitHub username.");
                         return false;
                     }
                 },
@@ -157,12 +133,12 @@ function init() {
             {
                 type: 'input',
                 name: 'email',
-                message: questions[7],
+                message: questions[8],
                 validate: (input) => {
                     if (input) {
                         return true;
                     } else {
-                        console.log("Please enter a description of your project.");
+                        console.log("Please your email.");
                         return false;
                     }
                 },
