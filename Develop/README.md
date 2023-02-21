@@ -1,5 +1,5 @@
-# a
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+# Uberish
+[![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)
 
 ## Table of Contents
 
@@ -15,30 +15,30 @@
 
 ## Description
     
-a
+We are a ride share app.
      
 ## Installation
 
-a
+Download our app or clone our repo.
   
 ## Usage
       
-a
+Use our project through our app.
   
 ## Contributing
   
-a
+Contribute by joining the Uberish team or opening a pull request.
   
 ## Tests
   
-a
+By trying out our app.
 
 ## License
 
-License Link: https://opensource.org/licenses/MIT
-
-This program is protected under the MIT License and all users/distributors must comply with the MIT License parameters. Refer to the link above for further detail.
+License Link: https://opensource.org/licenses/ISC
+        
+This program is protected under the ISC License and all users/distributors must comply with the ISC License parameters. Refer to the link above for further detail.
 
 ## Questions
 
-Any questions can be sent to a or a.
+Any questions can be sent to [@Octocat](https://github.com/Octocat) or tacmawesome@gmail.com.

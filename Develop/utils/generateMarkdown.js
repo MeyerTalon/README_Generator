@@ -3,7 +3,7 @@
 function renderLicenseBadge(license) {
   if (license === 'MIT License') {
     return '[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)';
-  } else if (license === 'Apache 2.0 License') {
+  } else if (license === 'Apache License 2.0') {
     return '[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)';
   } else if (license === 'ISC License') {
     return '[![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)';
@@ -17,7 +17,7 @@ function renderLicenseBadge(license) {
 function renderLicenseLink(license) {
   if (license === 'MIT License') {
     return 'https://opensource.org/licenses/MIT';
-  } else if (license === 'Apache 2.0 License') {
+  } else if (license === 'Apache License 2.0') {
     return 'https://opensource.org/licenses/Apache-2.0';
   } else if (license === 'ISC License') {
     return 'https://opensource.org/licenses/ISC';
@@ -35,7 +35,7 @@ function renderLicenseSection(license) {
 License Link: ${renderLicenseLink(license)}
 
 This program is protected under the MIT License and all users/distributors must comply with the MIT License parameters. Refer to the link above for further detail.`;
-  } else if (license === 'Apache 2.0 License') {
+  } else if (license === 'Apache License 2.0') {
     return `## License
 
 License Link: ${renderLicenseLink(license)}
@@ -93,7 +93,7 @@ ${renderLicenseSection(data.license)}
 
 ## Questions
 
-Any questions can be sent to ${data.github} or ${data.email}.
+Any questions can be sent to [@${data.github}](https://github.com/${data.github}) or ${data.email}.
 `;
 
 }
