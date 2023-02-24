@@ -1,5 +1,5 @@
-# Uberish
-[![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)
+# Uber-ish
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Table of Contents
 
@@ -15,30 +15,30 @@
 
 ## Description
     
-We are a ride share app.
+We are a ride sharing-ish app.
      
 ## Installation
 
-Download our app or clone our repo.
+Install our app by downloading it from the app store.
   
 ## Usage
       
-Use our project through our app.
+Use our app through our app or our website.
   
 ## Contributing
   
-Contribute by joining the Uberish team or opening a pull request.
+Contribute by joining the Uber team or opening a pull request.
   
 ## Tests
   
-By trying out our app.
+Test our project by going to our website and trying different destinations.
 
 ## License
 
-License Link: https://opensource.org/licenses/ISC
-        
-This program is protected under the ISC License and all users/distributors must comply with the ISC License parameters. Refer to the link above for further detail.
+License Link: https://opensource.org/licenses/MIT
+
+This program is protected under the MIT License and all users/distributors must comply with the MIT License parameters. Refer to the link above for further detail.
 
 ## Questions
 
-Any questions can be sent to [@Octocat](https://github.com/Octocat) or tacmawesome@gmail.com.
+Any questions can be sent to [@Octocat](https://github.com/Octocat) or octocat@github.com.
