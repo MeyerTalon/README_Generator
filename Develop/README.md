@@ -15,15 +15,15 @@
 
 ## Description
     
-We are a ride sharing-ish app.
+We are a ride sharing company with the purpose of making travel more affordable.
      
 ## Installation
 
-Install our app by downloading it from the app store.
+Download our app from the app store.
   
 ## Usage
       
-Use our app through our app or our website.
+Use our project through our app or our website.
   
 ## Contributing
   
@@ -31,7 +31,7 @@ Contribute by joining the Uber team or opening a pull request.
   
 ## Tests
   
-Test our project by going to our website and trying different destinations.
+Test our project by trying out different locations.
 
 ## License
 
